@@ -1,6 +1,4 @@
-import _ from 'lodash';
-  
-  const getMax = (arr) => {
+const getMax = (arr) => {
   if (arr.length === 0) {
     return null;
   }
@@ -11,6 +9,6 @@ import _ from 'lodash';
     }
   }
   return max;
-}
+};
 
 export default getMax;
